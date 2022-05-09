@@ -9,7 +9,8 @@ words = text.split(' ')
 text = ' --'.join(words)
 print(text)
 
-#б) first_name = "Vadim"
+#б)
+first_name = "Vadim"
 last_name = "Malashkov"
 age = 25
 town = "Minsk"

@@ -1,0 +1,25 @@
+#1 вариант
+num_1 = int(input('Введите первое число: '))
+num_2 = int(input('Введите второе число: '))
+print('{} + {} = '.format(num_1, num_2))
+print(num_1 + num_2)
+print('{} - {} = '.format(num_1, num_2))
+print(num_1 - num_2)
+print('{} * {} = '.format(num_1, num_2))
+print(num_1 * num_2)
+print('{} / {} = '.format(num_1, num_2))
+print(num_1 / num_2)
+
+
+#2 вариант
+num_1 = int(input('Введите первое число: '))
+num_2 = int(input('Введите второе число: '))
+num_3 = int(input('Введите третье число: '))
+num_4 = int(input('Введите четвёртое число: '))
+num_5 = int(input('Введите пятое число: '))
+print('{} + {} + {} - {} * {} = '.format(num_1, num_2, num_3, num_4, num_5))
+print(num_1 + num_2 + num_3 - num_4 * num_5)
+print('{} * {} / {} - {} + {} = '.format(num_1, num_2, num_3, num_4, num_5))
+print(num_1 * num_2 / num_3 - num_4 + num_5)
+print('{} * {} * {} / {} - {} = '.format(num_1, num_2, num_3, num_4, num_5))
+print(num_1 * num_2 * num_3 / num_4 - num_5)

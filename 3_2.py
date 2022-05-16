@@ -1,7 +1,14 @@
-a = int(input("Введите количество элементов списка: "))
-b = []
-for i in range(0, a):
-    elem = int(input("Введите элемент списка: "))
-    b.append(elem)
-age = sum(b) / a
-print("Среднее значение элементов списка",round(age, 3))
+num_1 = int(input('Введите первое число: '))
+num_2 = int(input('Введите второе число: '))
+
+print('{} + {} = '.format(num_1, num_2))
+print(num_1 + num_2)
+
+print('{} - {} = '.format(num_1, num_2))
+print(num_1 - num_2)
+
+print('{} * {} = '.format(num_1, num_2))
+print(num_1 * num_2)
+
+print('{} / {} = '.format(num_1, num_2))
+print(num_1 / num_2)
